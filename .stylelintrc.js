@@ -2,7 +2,7 @@ module.exports = {
   customSyntax: 'postcss-html',
   extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order', 'stylelint-config-prettier'],
   plugins: ['stylelint-order', 'stylelint-scss'],
-  processors: [[' ', { fileFilterRegex: [/\.vue$/] }]],
+  processors: [['@mapbox/stylelint-processor-arbitrary-tags', { fileFilterRegex: [/\.vue$/] }]],
   rules: {
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,

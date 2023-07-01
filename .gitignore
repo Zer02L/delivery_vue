@@ -8,6 +8,9 @@ dist
 # Node dependencies
 node_modules
 
+.vscode
+.stylelintcache
+
 # Logs
 logs
 *.log
@@ -21,6 +24,3 @@ logs
 .env
 .env.*
 !.env.example
-
-.stylelintcache
-.vscode

@@ -1,11 +1,10 @@
 @import './modules/normalize.scss';
-// @import './modules/swiper.min.css';
+// @import 'swiper/swiper.min.css';
 @import './modules/fonts.scss';
 @import './modules/common.scss';
 @import './modules/transitions.scss';
 
-/* stylelint-disable-next-line-selector-id-pattern */
+/* stylelint-disable-next-line selector-id-pattern */
 #__nuxt {
-	width: 100px;
+  width: 100%;
 }
-
