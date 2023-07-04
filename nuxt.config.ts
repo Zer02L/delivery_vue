@@ -23,5 +23,11 @@ export default defineNuxtConfig({
     loadingClass: 'isImageLoading',
     directiveOnly: true
   },
-  modules: ['@nuxtjs/stylelint-module', '@nuxtjs/eslint-module', ['@pinia/nuxt', { disableVuex: false }], 'nuxt-icons']
+  modules: [
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/eslint-module',
+    ['@pinia/nuxt', { disableVuex: false }],
+    'nuxt-icons',
+    'nuxt-lazy-load'
+  ]
 })
