@@ -6,6 +6,6 @@ const modelList: coreFunctionList = [Template]
 
 export default (context: nuxtContext) => {
   class ModelsLocator {}
-  context.$config = new ModelsLocator()
+  context.$configs = new ModelsLocator()
   modelList.forEach((fn) => fn(context))
 }
