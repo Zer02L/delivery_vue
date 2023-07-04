@@ -1,6 +1,6 @@
 import { nuxtContext } from '@nuxt/types'
 import { coreFunctionList } from '@/types/iCore.ts'
-import TemplateMethds from '@/core/api/modules/TemplateMethds.ts'
+import TemplateMethds from '@/core/api/modules/TemplateMethods.ts'
 
 const modelList: coreFunctionList = [TemplateMethds]
 
